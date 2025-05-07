@@ -9,3 +9,9 @@ Then:
 The results will be printed to console.
 
 Note: DGEB will complain about the "model" not having a "hf_name" attribute.  This is because MinHash is not a neural network, and is not on HuggingFace.
+
+To obtain the results for ESM2 8M, or measure its speed, run:
+
+`python dgeb_retrieval_esm2_8m.py`
+
+Warning: it is very slow.
